@@ -24,7 +24,7 @@ PShader sh;
 void setup() {
 
   size(960, 540, P2D);
-  pg = createGraphics(2500, 2500, P2D);
+  pg = createGraphics(1000, 1000, P2D);
   sh = loadShader("sh.glsl");
   try {
     init();
